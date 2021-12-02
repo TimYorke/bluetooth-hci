@@ -5,7 +5,7 @@ extern crate nb;
 use byteorder::{ByteOrder, LittleEndian};
 
 const PACKET_TYPE_HCI_COMMAND: u8 = 0x01;
-// const PACKET_TYPE_ACL_DATA: u8 = 0x02;
+const PACKET_TYPE_ACL_DATA: u8 = 0x02;
 // const PACKET_TYPE_SYNC_DATA: u8 = 0x03;
 const PACKET_TYPE_HCI_EVENT: u8 = 0x04;
 
